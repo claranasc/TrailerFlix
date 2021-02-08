@@ -27,6 +27,9 @@
                                 <state key="normal" title="Assistir Trailer Aleatório">
                                     <color key="titleColor" red="0.86274509799999999" green="0.29411764709999999" blue="0.27450980390000002" alpha="1" colorSpace="calibratedRGB"/>
                                 </state>
+                                <connections>
+                                    <action selector="watchRandomTrailer:" destination="BYZ-38-t0r" eventType="touchUpInside" id="5Dv-Fd-nbq"/>
+                                </connections>
                             </button>
                             <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="random" translatesAutoresizingMaskIntoConstraints="NO" id="a9h-Ti-5qP">
                                 <rect key="frame" x="555" y="83.5" width="277" height="210.5"/>
@@ -61,6 +64,10 @@
                                         <color key="backgroundColor" red="0.98039215690000003" green="0.91764705879999997" blue="0.30588235289999999" alpha="1" colorSpace="calibratedRGB"/>
                                     </tableViewCell>
                                 </prototypes>
+                                <connections>
+                                    <outlet property="dataSource" destination="BYZ-38-t0r" id="9nk-ww-Bdh"/>
+                                    <outlet property="delegate" destination="BYZ-38-t0r" id="oLr-ZV-hrG"/>
+                                </connections>
                             </tableView>
                         </subviews>
                         <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
@@ -83,6 +90,7 @@
                         </constraints>
                     </view>
                     <connections>
+                        <outlet property="tableview" destination="phW-dl-oda" id="28q-In-OQA"/>
                         <segue destination="wVh-04-jWc" kind="show" id="hqZ-r5-cIo"/>
                     </connections>
                 </viewController>
@@ -90,10 +98,10 @@
             </objects>
             <point key="canvasLocation" x="531.69642857142856" y="60.869565217391312"/>
         </scene>
-        <!--View Controller-->
+        <!--Trailer View Controller-->
         <scene sceneID="z00-WT-Uv5">
             <objects>
-                <viewController id="wVh-04-jWc" sceneMemberID="viewController">
+                <viewController id="wVh-04-jWc" customClass="TrailerViewController" customModule="TrailerFlix" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="wLU-iu-VhT">
                         <rect key="frame" x="0.0" y="0.0" width="896" height="414"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
