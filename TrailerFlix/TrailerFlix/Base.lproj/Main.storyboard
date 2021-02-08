@@ -112,19 +112,13 @@
                                     <constraint firstAttribute="width" secondItem="VWv-dC-6zw" secondAttribute="height" multiplier="675:1000" id="Zey-tQ-iQs"/>
                                 </constraints>
                             </imageView>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" verticalHuggingPriority="251" text="Label" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="naa-va-fMj">
-                                <rect key="frame" x="326.5" y="59" width="443.5" height="21"/>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" verticalHuggingPriority="251" text="Year" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="naa-va-fMj">
+                                <rect key="frame" x="326.5" y="59" width="436.5" height="21"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="17"/>
                                 <color key="textColor" white="0.66666666666666663" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                 <nil key="highlightedColor"/>
                             </label>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Voltar" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="MoF-tL-Pwk">
-                                <rect key="frame" x="838" y="370" width="42" height="18"/>
-                                <fontDescription key="fontDescription" type="system" weight="medium" pointSize="15"/>
-                                <color key="textColor" red="0.86274509799999999" green="0.29411764709999999" blue="0.27450980390000002" alpha="1" colorSpace="calibratedRGB"/>
-                                <nil key="highlightedColor"/>
-                            </label>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Sjs-9k-YMx">
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Title" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Sjs-9k-YMx">
                                 <rect key="frame" x="326.5" y="20" width="511.5" height="32"/>
                                 <fontDescription key="fontDescription" type="boldSystem" pointSize="26"/>
                                 <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
@@ -134,19 +128,28 @@
                                 <rect key="frame" x="326.5" y="90" width="549.5" height="270"/>
                                 <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                             </view>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="IbF-Ru-jk5">
-                                <rect key="frame" x="790" y="59" width="42" height="21"/>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Rating" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="IbF-Ru-jk5">
+                                <rect key="frame" x="783" y="59" width="49" height="21"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="17"/>
                                 <color key="textColor" white="0.66666666666666663" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                 <nil key="highlightedColor"/>
                             </label>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="hJ3-1L-msi">
+                                <rect key="frame" x="836" y="374" width="44" height="32"/>
+                                <fontDescription key="fontDescription" type="system" weight="medium" pointSize="16"/>
+                                <state key="normal" title="Voltar">
+                                    <color key="titleColor" red="0.86274509799999999" green="0.29411764709999999" blue="0.27450980390000002" alpha="1" colorSpace="calibratedRGB"/>
+                                </state>
+                                <connections>
+                                    <action selector="CLOSE:" destination="wVh-04-jWc" eventType="touchUpInside" id="R6o-g4-kda"/>
+                                </connections>
+                            </button>
                         </subviews>
                         <viewLayoutGuide key="safeArea" id="C8s-Rq-Avm"/>
                         <color key="backgroundColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                         <constraints>
                             <constraint firstItem="C8s-Rq-Avm" firstAttribute="trailing" secondItem="Sjs-9k-YMx" secondAttribute="trailing" constant="14" id="40f-8G-PKC"/>
                             <constraint firstItem="naa-va-fMj" firstAttribute="top" secondItem="Sjs-9k-YMx" secondAttribute="bottom" constant="7" id="6Jv-WI-tMj"/>
-                            <constraint firstAttribute="trailing" secondItem="MoF-tL-Pwk" secondAttribute="trailing" constant="16" id="8rX-Ks-6cr"/>
                             <constraint firstItem="IbF-Ru-jk5" firstAttribute="leading" secondItem="naa-va-fMj" secondAttribute="trailing" constant="20" id="8wG-8x-f9B"/>
                             <constraint firstItem="C8s-Rq-Avm" firstAttribute="trailing" secondItem="IbF-Ru-jk5" secondAttribute="trailing" constant="20" id="ADl-CL-cjP"/>
                             <constraint firstAttribute="trailing" secondItem="BmR-dD-Ry0" secondAttribute="trailing" constant="20" id="Cow-5n-0n2"/>
@@ -154,16 +157,24 @@
                             <constraint firstAttribute="bottom" secondItem="VWv-dC-6zw" secondAttribute="bottom" id="Gse-2S-LFu"/>
                             <constraint firstItem="VWv-dC-6zw" firstAttribute="leading" secondItem="wLU-iu-VhT" secondAttribute="leading" constant="33" id="MaI-a9-RVX"/>
                             <constraint firstItem="BmR-dD-Ry0" firstAttribute="leading" secondItem="naa-va-fMj" secondAttribute="leading" id="SFx-c9-zmm"/>
-                            <constraint firstItem="C8s-Rq-Avm" firstAttribute="bottom" secondItem="MoF-tL-Pwk" secondAttribute="bottom" constant="5" id="Seh-t2-ntC"/>
                             <constraint firstItem="IbF-Ru-jk5" firstAttribute="top" secondItem="naa-va-fMj" secondAttribute="top" id="Sv8-CE-tYp"/>
                             <constraint firstItem="Sjs-9k-YMx" firstAttribute="top" secondItem="C8s-Rq-Avm" secondAttribute="top" constant="20" id="VLh-cC-4Ca"/>
                             <constraint firstItem="Sjs-9k-YMx" firstAttribute="leading" secondItem="VWv-dC-6zw" secondAttribute="trailing" constant="14" id="e2Q-Q1-hcf"/>
+                            <constraint firstItem="hJ3-1L-msi" firstAttribute="top" secondItem="BmR-dD-Ry0" secondAttribute="bottom" constant="14" id="hhJ-JV-b5B"/>
+                            <constraint firstAttribute="trailing" secondItem="hJ3-1L-msi" secondAttribute="trailing" constant="16" id="i68-tw-2Dz"/>
+                            <constraint firstAttribute="bottom" secondItem="hJ3-1L-msi" secondAttribute="bottom" constant="8" id="kIT-0Y-1hk"/>
                             <constraint firstItem="VWv-dC-6zw" firstAttribute="top" secondItem="C8s-Rq-Avm" secondAttribute="top" id="mRj-iD-gjL"/>
                             <constraint firstItem="naa-va-fMj" firstAttribute="leading" secondItem="VWv-dC-6zw" secondAttribute="trailing" constant="14" id="rh2-HU-cBh"/>
-                            <constraint firstItem="MoF-tL-Pwk" firstAttribute="top" secondItem="BmR-dD-Ry0" secondAttribute="bottom" constant="10" id="tk4-xr-Vho"/>
                         </constraints>
                     </view>
                     <navigationItem key="navigationItem" id="myO-pE-r6u"/>
+                    <connections>
+                        <outlet property="ivTrailer" destination="VWv-dC-6zw" id="TPk-j5-Rl8"/>
+                        <outlet property="lbRating" destination="IbF-Ru-jk5" id="XBE-Zk-YXt"/>
+                        <outlet property="lbTitle" destination="Sjs-9k-YMx" id="hTq-pJ-g4o"/>
+                        <outlet property="lbYear" destination="naa-va-fMj" id="avR-2b-XrH"/>
+                        <outlet property="viTrailer" destination="BmR-dD-Ry0" id="nax-SR-nfa"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="Ti5-UH-zIe" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
