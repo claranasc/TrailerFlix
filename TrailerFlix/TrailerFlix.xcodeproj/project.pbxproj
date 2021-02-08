@@ -15,6 +15,7 @@
 		25BAEC0E25D1855900FEC7DD /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 25BAEC0C25D1855900FEC7DD /* LaunchScreen.storyboard */; };
 		25BAEC1925D1855900FEC7DD /* TrailerFlixTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 25BAEC1825D1855900FEC7DD /* TrailerFlixTests.swift */; };
 		25BAEC2425D1855900FEC7DD /* TrailerFlixUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 25BAEC2325D1855900FEC7DD /* TrailerFlixUITests.swift */; };
+		25BAEC3825D1882500FEC7DD /* trailers.json in Resources */ = {isa = PBXBuildFile; fileRef = 25BAEC3725D1882500FEC7DD /* trailers.json */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -49,6 +50,7 @@
 		25BAEC1F25D1855900FEC7DD /* TrailerFlixUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TrailerFlixUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		25BAEC2325D1855900FEC7DD /* TrailerFlixUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TrailerFlixUITests.swift; sourceTree = "<group>"; };
 		25BAEC2525D1855900FEC7DD /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		25BAEC3725D1882500FEC7DD /* trailers.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; name = trailers.json; path = ../../TrailerFlix_arquivos/trailers.json; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -100,6 +102,7 @@
 			isa = PBXGroup;
 			children = (
 				25BAEC0125D1855600FEC7DD /* AppDelegate.swift */,
+				25BAEC3725D1882500FEC7DD /* trailers.json */,
 				25BAEC0325D1855600FEC7DD /* SceneDelegate.swift */,
 				25BAEC0525D1855600FEC7DD /* ViewController.swift */,
 				25BAEC0725D1855600FEC7DD /* Main.storyboard */,
@@ -234,6 +237,7 @@
 				25BAEC0E25D1855900FEC7DD /* LaunchScreen.storyboard in Resources */,
 				25BAEC0B25D1855900FEC7DD /* Assets.xcassets in Resources */,
 				25BAEC0925D1855600FEC7DD /* Main.storyboard in Resources */,
+				25BAEC3825D1882500FEC7DD /* trailers.json in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
