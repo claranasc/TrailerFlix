@@ -15,15 +15,14 @@ class TrailerViewController: UIViewController {
     @IBOutlet weak var lbRating: UILabel!
     @IBOutlet weak var viTrailer: UIView!
     
+    var trailer: Trailer!
+    
     override func viewDidLoad() {
         super.viewDidLoad()
-
-        // Do any additional setup after loading the view.
+        print(trailer.title)
     }
     
     @IBAction func close(_ sender: UIButton) {
         dismiss(animated: true, completion: nil)
     }
-    
-
 }

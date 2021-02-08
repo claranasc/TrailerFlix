@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		2507727925D1DB2E000A68AC /* Trailer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2507727825D1DB2E000A68AC /* Trailer.swift */; };
 		2535719F25D198BF00BF2C44 /* TrailerViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2535719E25D198BF00BF2C44 /* TrailerViewController.swift */; };
 		25BAEC0225D1855600FEC7DD /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 25BAEC0125D1855600FEC7DD /* AppDelegate.swift */; };
 		25BAEC0425D1855600FEC7DD /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 25BAEC0325D1855600FEC7DD /* SceneDelegate.swift */; };
@@ -37,6 +38,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		2507727825D1DB2E000A68AC /* Trailer.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Trailer.swift; sourceTree = "<group>"; };
 		2535719E25D198BF00BF2C44 /* TrailerViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TrailerViewController.swift; sourceTree = "<group>"; };
 		25BAEBFE25D1855600FEC7DD /* TrailerFlix.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TrailerFlix.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		25BAEC0125D1855600FEC7DD /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
@@ -108,6 +110,7 @@
 				25BAEC0325D1855600FEC7DD /* SceneDelegate.swift */,
 				25BAEC0525D1855600FEC7DD /* ViewController.swift */,
 				2535719E25D198BF00BF2C44 /* TrailerViewController.swift */,
+				2507727825D1DB2E000A68AC /* Trailer.swift */,
 				25BAEC0725D1855600FEC7DD /* Main.storyboard */,
 				25BAEC0A25D1855900FEC7DD /* Assets.xcassets */,
 				25BAEC0C25D1855900FEC7DD /* LaunchScreen.storyboard */,
@@ -266,6 +269,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				2535719F25D198BF00BF2C44 /* TrailerViewController.swift in Sources */,
+				2507727925D1DB2E000A68AC /* Trailer.swift in Sources */,
 				25BAEC0625D1855600FEC7DD /* ViewController.swift in Sources */,
 				25BAEC0225D1855600FEC7DD /* AppDelegate.swift in Sources */,
 				25BAEC0425D1855600FEC7DD /* SceneDelegate.swift in Sources */,
